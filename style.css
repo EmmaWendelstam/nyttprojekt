@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    height: 100%;
+    max-width: 100%;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 21%;
+    position: absolute;
+    left: 9rem;
+    top: 4rem;
+    box-shadow: 1px 10px 10px 20px white;
+}
+
+header {
+    background-color: rgba(121, 105, 105, 0.11);
+    height: 20vh;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    width: 100%;
+   }
+
+header p {
+    display: none;
+}
+
+.sign-up p{
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 3rem;
+
+}
+
+.card {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    text-align: start;
+    padding-top: 4rem;
+}
+
+.card p {
+    color: rgba(0, 0, 0, 0.178);
+}
+
+text {
+    color: rgba(0, 0, 0, 0.178);
+
+}
+
+.google {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    margin: 0.2rem;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+}
+
+form {
+    width: 50%;
+}
+    /* STYR FORM INPUTS */
+form input{
+        display: block;
+        width: 163%;
+        border: 1px solid rgba(0, 0, 0, 0.13);
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        text-align: start;
+}
+    /* STYR SIGN UP GOOGLE INPUT */
+input{
+        margin-bottom: 1rem;
+        height: 2rem;
+        width: 53%;
+}
+
+label{
+        margin-bottom: 0.2rem;
+}
+
+label {
+    color: rgba(0, 0, 0, 0.178);
+}
+
+.btn {
+    padding-top: 3rem;
+}
+
+button {
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgb(233, 119, 27);
+        height: 2.5rem;
+        width: 19.5rem;
+        border: none;
+        color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.checkbox-flex {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    gap: 1rem;
+}
+.checkbox {
+width: 3.5rem;
+color: rgba(0, 0, 0, 0.178);
+}
+
+.checkbox-flex p {
+    margin: 0;
+    margin-top: .5rem;
+}
+
+
+
+/* MEDIA QUERY DESKTOP */
+@media only screen and (min-width: 376px) {
+    body {
+        display: flex;
+        margin: 0;
+        height: 100%;
+        max-width: 100%;
+    }
+
+    img {
+        height: 20em;
+        width: 20em;
+        border-radius: 21%;
+        box-shadow: 1px 10px 10px 20px white;
+        position: absolute;
+        left: 11.5rem;
+        top: 13rem;
+    }
+    
+    header {
+        background-color: rgba(121, 105, 105, 0.11);
+        height: 100vh;
+        width: 55vw;
+        display: flex;
+        flex-direction: column;
+       }
+    
+    header p {
+        display: table;
+    }
+    
+    .sign-up p{
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: 3rem;
+    
+    }
+    
+    .card {
+        width: 100vw;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+        text-align: start;
+        display: flex;
+    }
+    
+    .card p {
+        color: rgba(0, 0, 0, 0.178);
+        font-size: 16px;
+    }
+    
+    text {
+        color: rgba(0, 0, 0, 0.178);
+    
+    }
+    
+    .google {
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+    
+    h1 {
+        font-size: 2rem;
+        margin: 0.2rem;
+    }
+    
+    h2{
+        font-family: 'Roboto', sans-serif; 
+        margin: 0;
+    }
+
+    .fullheight-center {
+        padding-right: 2rem;
+    }
+    
+    form {
+        width: 13rem;
+    }
+        /* STYR FORM INPUTS */
+    form input{
+            display: block;
+            width: 163%;
+            border: 1px solid rgba(0, 0, 0, 0.13);
+            border-top: transparent;
+            border-left: transparent;
+            border-right: transparent;
+            text-align: start;
+    }
+        /* STYR SIGN UP GOOGLE INPUT */
+    input{
+            margin-bottom: 1rem;
+            height: 2rem;
+            width: 110%;
+    }
+    
+    label{
+            margin-bottom: 0.2rem;
+    }
+    
+    label {
+        color: rgba(0, 0, 0, 0.178);
+    }
+    
+    .btn {
+        padding: 2rem 0 0 6rem;
+        text-align: center;
+    }
+    
+    button {
+     width: 22rem;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .checkbox-flex {
+        object-fit: contain;
+    width: 23rem;
+    padding-left: 7rem;
+    }
+    .checkbox {
+    width: 2rem;
+    color: rgba(0, 0, 0, 0.178);
+    }
+    
+    .checkbox-flex p {
+        margin: 0;
+        margin-top: .5rem;
+        font-size: 13px;
+    }
+
+ 
+  }
