@@ -1,3 +1,7 @@
+.animate__animated.animate__bounce {
+    --animate-duration: 4s;
+  }
+
 body {
     margin: 0;
     height: 100%;
@@ -245,6 +249,12 @@ color: rgba(0, 0, 0, 0.178);
      width: 22rem;
     }
     
+    button:hover {
+        background: rgb(255, 218, 56);
+        outline-width: 2px;
+        transition: background-color .2s;
+    }
+    
     a {
         text-decoration: none;
     }
@@ -265,5 +275,5 @@ color: rgba(0, 0, 0, 0.178);
         font-size: 13px;
     }
 
- 
+
   }
